@@ -1,38 +1,69 @@
+*{ 
+    margin: 0;
+    padding: 0; 
+
+}
+
 .App {
-  text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.textContainer { 
+    margin: center;
+    color:black;
+    background-color: white;
+    margin:50px;
+    padding:5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dark-text1 { 
+    background-color: rgb(0, 217, 255);
+    height: 10vh;
+    padding: 2vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.person-name { 
+    font-size: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.person-text{ 
+    margin-top: 16rem;
+    margin-left: 50rem;
+    font-size: 30px;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-text, .list-name { 
+    padding: 10px;
 }
+
+.movies { 
+    margin-left: 50rem ;
+}
+
+.inButtons{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.previousBtn { 
+    width: 10vh;
+    height: 5vh;
+}
+
+.nextBtn { 
+    width: 10vh;
+    height: 5vh;
+}
+
+.dark-text { 
+    float: right;
+    margin-top: -540px;
+    color: black;
+    font-size: 50px;
+    margin-right: 50px;
+};
